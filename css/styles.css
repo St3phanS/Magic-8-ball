@@ -99,6 +99,9 @@ h1 {
     height: 120px;
     margin: 0 auto;
     margin-top: 25px;
+    text-align: center;
+ 
+    padding: 0%;
  
 
 }
@@ -112,26 +115,29 @@ h1 {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin: 0;
-    margin-left: 63px;
-    /* margin-bottom: 7px; */
+
 
 }
 
 
-p#eye {
+/* p#eye {
   font-size: 5em;
-  /* margin: 25% auto; */
+  margin: 25% auto;
   color: #efefb2;
   position: absolute;
   bottom: 20px;
   left: 686px;
-}
+} */
 
-p#answer {
-  padding: 20px;
-  color: #efefb2;
-  letter-spacing: 2px;
-  font-size:20px;
+#response {
+    z-index: 4;
+    overflow-wrap: break-word;
+    color: #efefb2;
+    letter-spacing: 2px;
+    font-size:20px;
+    max-width: 220px;
+    font-weight: bold;
+    margin-bottom: 0%;
 }
 
 #question {
